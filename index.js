@@ -111,7 +111,7 @@ function makeSound(key)
       C2.play();
       break;
       default:
-      alert("you pressed a wrong key!");
+      console.log("oops");
     }
 }
 document.addEventListener("keydown",function(event){
